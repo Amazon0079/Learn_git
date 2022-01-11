@@ -1,0 +1,71 @@
+ <!doctype Html>
+<html>
+    <head>
+        <title> SignUp</title>
+    </head>
+    <body>
+        <h1>SignUp</h1>
+        
+        <form method="get " action="http://jkorpela.fi/cgi-bin/echo.cgi">
+            
+            <p>
+                <label for="Name">Name:</label>
+                <input type="text" placeholder="Enter Name" value="Bhuvi" id="Name" name="Name">
+            
+            </p>
+            
+            
+             <p>
+                <label for="email">Email:</label>
+                <input type="text" placeholder="Enter Email" value="Bhuvi@xyz.com" id="email" name="email">
+             </p>
+            
+            
+             <div>
+                 <label for="password">Passwod:</label>
+                
+                <input type="password" placeholder="Password" id="password" name="password">
+             </div> 
+            
+            
+            
+            <p>
+                <lable for="color">Favorite Color:</lable>
+                <select id="color" name="color">
+                    <option value="R">RED</option>
+                    <option value="G">GREEN</option>
+                    <option value="B" selected>BLUE</option>
+                
+                </select>
+            </p>
+            
+            <p>
+                Gender:
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" checked>
+                <label for="female">Female</label>
+            
+            </p>
+            
+            <p>
+                <lable for="student">I am a Student</lable>
+                <input type="checkbox" id="student" name="student" checked>
+            
+            </p>
+            
+            <p>
+                <lable for="about">About Me</lable>
+                <textarea id="about" name="about">I want to be a Software Developer</textarea>
+            
+            </p>
+            
+            <p>
+                <input type="submit" value="SignUp">
+            
+            </p>
+            
+            
+        </form>
+    </body>
+</html>
